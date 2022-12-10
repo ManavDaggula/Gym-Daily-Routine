@@ -1,6 +1,6 @@
 import React from 'react'
 import './Landing.css'
-import logo from './../images/logo.jpg'
+import logo from './../images/logo-cropped.jpg'
 // import {Link} from "react-router-dom"
 
 function Landing() {
