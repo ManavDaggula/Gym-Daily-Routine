@@ -1,26 +1,12 @@
 import React from 'react'
+import MenuIcon from "./../images/Menu-Icon.png"
+import ProfileIcon from "./../images/profile-icon.webp"
 
 export default function Navbar() {
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid mx-4">
-                    <a class="navbar-brand" href="/">DailyRoutine</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/">Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <button type="button" class="btn btn-link link-light">Sign in</button>
-                </div>
+            <nav className="navbar fs-5 m-2">
+                'Icon' Title
             </nav>
         </>
     )
