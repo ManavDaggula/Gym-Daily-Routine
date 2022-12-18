@@ -7,15 +7,31 @@
     --dark: #121212;
 }
 
-.form-control{
+.auth-form{
     border: 1px solid var(--primary);
 }
-
-.form-control::placeholder{
+.auth-form::placeholder{
     font-weight: 300;
     font-style: italic;
     color: var(--ascent-light);
     font-size: 14px;
+}
+.profile-form{
+    border: none;
+    border-bottom: 1px solid var(--ascent-light);
+    outline: none;
+    box-shadow: none;
+    transition: 1s;
+}
+.profile-form:focus{
+    border-bottom: 2px solid var(--ascent-light);
+    box-shadow: none;
+}
+.profile-label{
+    border: none;
+    font-size: calc(0.4rem + 1vh);
+    font-style: italic;
+    color: var(--ascent-light);
 }
 
 .btn{
@@ -33,6 +49,9 @@
 
 .text-ascent{
     color: var(--ascent-dark);
+}
+.text-ascent-light{
+    color: var(--ascent-light);
 }
 
 .fs-big{

@@ -8,13 +8,13 @@ export default function Signup() {
                 <h1 className="display-3 fw-bold mb-5 text-ascent">Welcome to the community</h1>
                 <form className='w-75'>
                     <div className="mb-3">
-                        <input type="text" className="form-control" id="name" name='name' placeholder='Username'/>
+                        <input type="text" className="form-control auth-form" id="name" name='name' placeholder='Username'/>
                     </div>
                     <div className="mb-3">
-                        <input type="text" className="form-control" id="email" name='email' placeholder='Email Address'/>
+                        <input type="text" className="form-control auth-form" id="email" name='email' placeholder='Email Address'/>
                     </div>
                     <div className="mb-4">
-                        <input type="password" className="form-control" id="password" name='password' placeholder='Password'/>
+                        <input type="password" className="form-control auth-form" id="password" name='password' placeholder='Password'/>
                     </div>
                     <button type="submit" className="btn btn-primary btn-sm px-3">Sign Up</button>
                 </form>

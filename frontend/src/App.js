@@ -7,6 +7,7 @@ import Login from './components/Login';
 import Navbar from './components/Navbar';
 import Signup from './components/Signup';
 import './App.css';
+import Profile from './components/Profile';
 function App() {
 	return (
 		<>
@@ -17,6 +18,7 @@ function App() {
 				{/* <Route exact path='/about' element={<About/>}/> */}
 				<Route exact path='/login' element={<Login/>}/>
 				<Route exact path='/signup' element={<Signup/>}/>
+				<Route exact path='/profile' element={<Profile/>}/>
 			</Routes>
 		</Router>
 		</>
