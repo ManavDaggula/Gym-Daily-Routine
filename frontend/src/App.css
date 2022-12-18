@@ -1,5 +1,45 @@
+
+:root{
+    --primary: #FF731D;
+    --ascent-dark: #051133;
+    --ascent-light: #4479C5;
+    --light: #fff;
+    --dark: #121212;
+}
+
+.form-control{
+    border: 1px solid var(--primary);
+}
+
+.form-control::placeholder{
+    font-weight: 300;
+    font-style: italic;
+    color: var(--ascent-light);
+    font-size: 14px;
+}
+
+.btn{
+    border-radius: 10px;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    border: var(--primary);
+    font-size: calc(0.5rem + 1vh);
+}
+.btn-primary:focus{
+    background-color: #B25014;
+}
+
+.text-ascent{
+    color: var(--ascent-dark);
+}
+
 .fs-big{
     font-size: 40px;
+}
+.f-custom{
+    color: var(--ascent-dark);
 }
 #slogan-1{
     animation: 1s ease-out 0s 1 slideLeft1;
@@ -38,3 +78,4 @@
         transform: translateX(0);
     }
 }
+

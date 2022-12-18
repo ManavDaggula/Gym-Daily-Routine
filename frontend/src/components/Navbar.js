@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react';
+import hamburgerbtn from '../images/menuBtn.svg'
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (
         <>
             <nav class="navbar navbar-light bg-light fixed-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/">DailyRoutine</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div>
+                        <button class="btn btn-light btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <img src={hamburgerbtn} alt="" />
+                        </button>
+                        <span class="text mx-4">{props.currentPage} hello world</span>
+                    </div>
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
@@ -20,7 +23,7 @@ export default function Navbar() {
                                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/">Link</a>
+                                    <a class="nav-link" href="/about">About Us</a>
                                 </li>
                             </ul>
                         </div>
